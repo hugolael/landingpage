@@ -1,0 +1,49 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    
+  }
+
+  h1, h3 {
+    text-align: center;
+    padding: 10px;
+  }
+a {color: white;
+   text-decoration: none;
+}
+img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+span {
+  color: #2ad362;
+}
+.espaco {
+  margin-bottom: 20px;
+}
+.centro {
+  text-align: center;
+}
+.botao {
+  background-color: rgb(6, 126, 6);
+  padding: 10px 15px 10px 15px;
+}
+.whatsapp {
+  background-color: rgb(6, 126, 6);
+  padding: 10px 15px;
+}
+.botao:hover {
+  opacity: 0.7;
+}
+ul li a:hover {
+  opacity: 0.7;
+}
